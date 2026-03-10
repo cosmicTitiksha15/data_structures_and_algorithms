@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int size = 5;
+    int marks[size];
+    
+    // marks[0] = 101;
+    // cout << marks[0] << endl;
+    // cout << marks[1] << endl;
+    // cout << marks[2] << endl;
+    // cout << marks[3] << endl;
+    // cout << marks[4] << endl;
+
+    // Prints the length of the array
+    // sizeof(marks) --> 20 Bytes here
+    // cout << sizeof(marks) / sizeof(int) << endl;
+
+    // Printing all the values of array
+
+    for(int i=0; i<size; i++){
+        cin >> marks[i];
+    }
+
+    for(int i=0; i<size; i++){
+        cout << marks[i] << endl;
+    }
+    return 0;
+}
